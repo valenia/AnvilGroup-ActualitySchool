@@ -10457,9 +10457,15 @@ header.masthead .masthead-heading {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
     border-radius: 100%;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
     background-color: #f95600;
+}
+
+
+.timeline>li .timeline-image img{
+    width: 65px;
+    height: 65px;  
 }
 
 .timeline>li .timeline-image h4 {
@@ -10526,6 +10532,12 @@ header.masthead .masthead-heading {
         height: 100px;
         margin-left: -50px;
     }
+
+    .timeline>li .timeline-image img{
+        width: 85px;
+        height: 85px;
+    }
+
     .timeline>li .timeline-image h4 {
         font-size: 13px;
         line-height: 18px;
@@ -10548,8 +10560,13 @@ header.masthead .masthead-heading {
     .timeline>li .timeline-image {
         width: 150px;
         height: 150px;
-        margin-left: -75px;
     }
+
+    .timeline>li .timeline-image img{
+        width: 135px;
+        height: 135px;
+    }
+    
     .timeline>li .timeline-image h4 {
         font-size: 18px;
         line-height: 26px;
@@ -10572,6 +10589,12 @@ header.masthead .masthead-heading {
         height: 170px;
         margin-left: -85px;
     }
+
+    .timeline>li .timeline-image img{
+        width: 155px;
+        height: 155px;
+    }
+
     .timeline>li .timeline-image h4 {
         margin-top: 40px;
     }
