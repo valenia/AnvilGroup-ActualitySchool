@@ -80,6 +80,7 @@ body {
     color: #0556c3;
     text-align: left;
     background-color: #fff;
+    font-display: swap;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
