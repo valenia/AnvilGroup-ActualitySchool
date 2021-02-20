@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{SERVER_PORT} 80
+
+RewriteRule ^(.*)$ https://www.anvilgroup.cat/$1 [R,L]
