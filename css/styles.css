@@ -10156,6 +10156,20 @@ img::-moz-selection {
     font-weight: 700;
 }
 
+.cc-license-text {
+    margin-top: 0.5rem;
+}
+
+.cc-license {
+    height: auto;
+    width: auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left: 1rem;
+}
+
 .btn-social {
     height: 2.5rem;
     width: 2.5rem;

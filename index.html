@@ -279,7 +279,7 @@
                     <a href="https://www.dondominio.com/" target="_blank"><img class="img-fluid d-block mx-auto" src="assets/img/logos/dondominio.png" alt="logotip dondominio"/></a>
                 </div>
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="https://creativecommons.org/" target="_blank"><img class="img-fluid d-block mx-auto" src="assets/img/logos/by-nc-nd.eu.png" alt="logo lliçencia Creative Commons by nc nd eu"/></a>
+                    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" target="_blank"><img class="img-fluid d-block mx-auto" src="assets/img/logos/by-nc-nd.eu.png" alt="logo lliçencia Creative Commons by nc nd eu"/></a>
                 </div>
             </div>
         </div>
@@ -325,13 +325,21 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">Copyright &copy Actuality 2021</div>
+                <div class="col-lg-4 text-lg-left">Copyright &copy Actuality <span id="year"></span>
+                    <a class="cc-license" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+                    <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" style="border-width:0" class="logo-cc" alt="Llicencia Creative Commons"></a><br/>
+                </div>             
                 <div class="col-lg-4 my-3 my-lg-0">
                     <a class="btn btn-dark btn-social mx-2" href="https://instagram.com/actualityescola?igshid=me4a5jxu9cun" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/Actuality-128666707915063" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 </div>
                 <div class="col-lg-4 text-lg-right">
                     <a class="mr-3" href="./privacy-policy.html">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-lg-left cc-license-text">
+                    <p>Aquesta obra està sota una <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" target="_blank">llicència de Creative Commons<br> Reconeixement-NoComercial-SenseObraDerivada 4.0 Internacional</a>.</p>
                 </div>
             </div>
         </div>
@@ -503,7 +511,7 @@
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Tancar
-                                    </button>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -521,6 +529,8 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- Any actualitzat per el copyright -->
+    <script src="js/year.js"></script>
 </body>
 
 </html>
