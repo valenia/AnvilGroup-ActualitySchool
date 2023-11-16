@@ -4,7 +4,7 @@ Reforma de la pàgina web de l'acadèmia d'anglès Actuality per concurs Wapps.c
 Projecte col·laboratiu amb Denis Anfruns (@hunkstalker) i Gerard Fernández (@Gfernamo).
 
 Take a look:
-https://valenia.github.io/AnvilGroup/
+https://valenia.github.io/AnvilGroup-ActualitySchool/
 
 feat --> https://actualityenglish.com
 
